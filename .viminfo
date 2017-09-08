@@ -88,9 +88,9 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	    <h1>图片服务器</h1>
-""1	LINE	0
+""0	CHAR	0
+	e
+"1	LINE	0
 		if request.session.has_key("color") and request.session.has_key("max_age"):
 "2	LINE	0
 			return HttpResponse("设置SESSION")
@@ -114,18 +114,20 @@ $
 	export PYTHON_TMPDIR=/opt/Manauto/logs
 
 # File marks:
-'0  70  11  /etc/rc.d/init.d/manserver
-'1  4  0  /etc/rc.d/init.d/manserver
-'2  10  26  /opt/Manauto/templates/index.html
-'3  15  32  /opt/Manauto/Manauto/vindex.py
-'4  11  27  /opt/Manauto/Manauto/urls.py
-'5  69  0  /opt/Manauto/templates/index.html
-'6  11  57  /opt/Manauto/templates/registration/login.html
-'7  3  0  /opt/Manauto/templates/registration/logout.html
-'8  20  0  /opt/Manauto/Manauto/vindex.py
-'9  13  10  /opt/Manauto/Manauto/urls.py
+'0  7  28  ~/.git/config
+'1  70  11  /etc/rc.d/init.d/manserver
+'2  4  0  /etc/rc.d/init.d/manserver
+'3  10  26  /opt/Manauto/templates/index.html
+'4  15  32  /opt/Manauto/Manauto/vindex.py
+'5  11  27  /opt/Manauto/Manauto/urls.py
+'6  69  0  /opt/Manauto/templates/index.html
+'7  11  57  /opt/Manauto/templates/registration/login.html
+'8  3  0  /opt/Manauto/templates/registration/logout.html
+'9  20  0  /opt/Manauto/Manauto/vindex.py
 
 # Jumplist (newest first):
+-'  7  28  ~/.git/config
+-'  1  0  ~/.git/config
 -'  70  11  /etc/rc.d/init.d/manserver
 -'  4  0  /etc/rc.d/init.d/manserver
 -'  50  2  /etc/rc.d/init.d/manserver
@@ -221,11 +223,17 @@ $
 -'  29  1  /etc/rc.d/init.d/manserver
 -'  31  1  /etc/rc.d/init.d/manserver
 -'  48  2  /etc/rc.d/init.d/manserver
--'  10  26  /opt/Manauto/templates/index.html
--'  8  99  /opt/Manauto/templates/index.html
--'  6  78  /opt/Manauto/templates/index.html
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/config
+	"	7	28
+	^	7	29
+	.	7	28
+	+	7	7
+	+	8	25
+	+	9	0
+	+	7	28
 
 > /etc/rc.d/init.d/manserver
 	"	70	11
@@ -807,6 +815,3 @@ $
 	^	18	21
 	.	20	44
 	+	20	44
-
-> /opt/Manauto/Manauto/logview.py
-	"	14	0
